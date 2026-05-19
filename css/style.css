@@ -1,5 +1,5 @@
 *{
-     font-family: "Roboto", sans-serif;
+    font-family: "Kite One", sans-serif;
 }
 @media(min-width: 992px){
 h1 {
@@ -58,7 +58,7 @@ p {
     grid-template-columns: 1fr 1fr;
     }
 }
-/* @media (max-width: 600px){
+@media (max-width: 600px){
 h1 {
     color: black;
     text-align: center;
@@ -85,13 +85,12 @@ p {
     margin-bottom: 20px;
     grid-template-columns: 1fr 1fr;
     }
-} */
+}
 /* Wrapper */
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
 }
-
 /* Header */
 header {
     display: flex;
@@ -145,13 +144,11 @@ ul {
 ul li{
     font-size: 20px;
 }
-
 /* ordered list item */
 ol li{
     font-size: 20px;
     text-align: left;
 }
-
 /*emoji */
 .reasons li::marker {
     content: "🥏 ";
