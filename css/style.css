@@ -1,33 +1,91 @@
-/* Headings */
+*{
+     font-family: "Roboto", sans-serif;
+}
+@media(min-width: 992px){
 h1 {
     color: black;
+   
     text-align: center;
     font-size: 4rem;
-@media (width > 600px){
-    font-size: 7.5rem;
-    }
-    }
-
+}
 h2 {
     color: #cb721c;
     text-align: center;
     font-size: 2.5rem;
 }
-
-/* Heading 3 text centering */
 h3 {
 text-align: left;
 font-size: 1.6rem;
 }
-
-/* Paragraph */
 p {
     padding: 5px;
     text-align: justify;
     font-size: 1.5rem;
     text-align: justify;
 }
-
+.two-column-layout {
+    display: grid;
+    gap: 60px;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr;
+    }
+    }
+@media (min-width: 992px){
+    h1 {
+    color: black;
+    text-align: center;
+    font-size: 4rem;
+}
+h2 {
+    color: #cb721c;
+    text-align: center;
+    font-size: 2.5rem;
+}
+h3 {
+text-align: left;
+font-size: 1.6rem;
+}
+p {
+    padding: 5px;
+    text-align: justify;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.two-column-layout {
+    display: grid;
+    gap: 60px;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+/* @media (max-width: 600px){
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 4rem;
+}
+h2 {
+    color: #cb721c;
+    text-align: center;
+    font-size: 2.5rem;
+}
+h3 {
+text-align: left;
+font-size: 1.6rem;
+}
+p {
+    padding: 5px;
+    text-align: justify;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.two-column-layout {
+    display: grid;
+    gap: 60px;
+    margin-bottom: 20px;
+    grid-template-columns: 1fr 1fr;
+    }
+} */
 /* Wrapper */
 .wrapper {
     max-width: 1000px;
@@ -56,18 +114,6 @@ header {
     text-decoration: none;
     font-weight: bold;
 }
-
-/* Layout */
-.two-column-layout {
-    display: grid;
-    gap: 60px;
-    margin-bottom: 20px;
-    @media (width > 600px) {
-        grid-template-columns: 1fr 1fr;
-
-    }
-}
-
 /* Images */
 img {
     max-width: 100%;
@@ -117,24 +163,4 @@ ol li{
 }
 span{
     color: #4676a9;
-}
-@media (min-width: 576px){
-    body{
-        font-size: 15px;
-    }
-}
-@media (min-width: 768px){
-    body{
-        font-size: 15px;
-    }
-}
-@media (min-width: 992px){
-    body{
-        font-size: 15px;
-    }
-}
-@media (min-width: 1200px){
-    body{
-        font-size: 15px;
-    }
 }
