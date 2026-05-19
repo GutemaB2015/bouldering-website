@@ -1,0 +1,111 @@
+/* Headings */
+h1 {
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    color: #cb721c;
+    text-align: center;
+}
+
+/* Heading 3 text centering */
+.center-title {
+text-align: center;
+}
+
+/* Paragraph */
+p {
+    padding: 5px;
+    text-align: justify;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* Wrapper */
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Navbar */
+
+.primary-navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+.primary-navigation a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Layout */
+.two-column-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px 0;
+    max-width: 1000px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Special section */
+.teal-bg {
+    background-color: #22466c;
+    color: white;
+    padding: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #22466c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Lists */
+ul {
+    list-style: circle;
+}
+
+/* unordered list item */
+ul li{
+    font-size: 20px;
+}
+
+/* ordered list item */
+ol li{
+    font-size: 20px;
+}
+
+/*emoji */
+.reasons li::marker {
+    content: "🥏 ";
+}
+.climber-bg{
+    background-image: url('../img/simple-steps.jpg');
+    color: aliceblue;
+    padding-inline: 20px;
+}
+span{
+    color: #4676a9;
+}
